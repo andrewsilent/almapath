@@ -1,0 +1,247 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, input, textarea, select, button {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:visited, a:active {
+  color: #fff;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+  position: relative;
+  -webkit-transition: all 0.5s ease 0.1s;
+  transition: all 0.5s ease 0.1s;
+  font: 400 1.125rem/1.4 'Lato', sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clear:before, .clear:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+#wrapper {
+  width: 100%;
+  min-width: 320px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1366px;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+
+.header {
+  padding-top: 5px;
+}
+
+.navigation {
+  text-align: justify;
+  margin: 0 50px;
+}
+
+.navigation::after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+.main-menu {
+  vertical-align: middle;
+}
+
+.logo, .main-menu {
+  font-size: 0;
+  letter-spacing: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo {
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.logo-title {
+  font: 700 1.125rem/1.4 'Arial', sans-serif;
+  letter-spacing: 5px;
+  color: #999;
+}
+
+.main-menu ul li {
+  display: inline-block;
+  padding-left: 42px;
+}
+
+.main-menu ul li a {
+  font: 600 0.9rem/1.4 'Arial', sans-serif;
+  color: #999;
+  transition: all 0.5s ease 0s;
+}
+
+.main-menu ul li a:hover {
+  color: #777;
+  transition: all 0.5s ease 0s;
+}
+
+.get-started {
+  padding: 10 35px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.get-started:hover {
+  background-color: #e0e0e0;
+}
+
+.section {
+  min-height: 450px;
+}
+
+.section-title {
+  font: 600 1.25rem/1.4 'Arial', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #999;
+  padding: 100px 0 60px 0;
+}
+
+.slider {
+  background-color: #e5e5e5;
+}
+
+.services {
+  background-color: #efefef;
+  text-align: center;
+}
+
+.services .container {
+  text-align: justify;
+}
+
+.services .container::after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+.service {
+  display: inline-block;
+  min-width: 300px;
+}
+
+.service img {
+  display: block;
+  height: 77px;
+  width: 100px;
+  background-color: #aaa;
+  margin: 0 auto;
+  border: 7px solid #fff;
+  border-radius: 7px;
+  margin-bottom: 50px;
+}
+
+.service p {
+  max-width: 200px;
+  margin: 0 auto;
+  color: #aaa;
+  font: 400 1rem/1.8 'Arial', sans-serif;
+  text-align: center;
+}
+
+.why {
+  background-color: #e5e5e5;
+  text-align: center;
+}
+
+.why p {
+  font: 300 0.95rem/2.5 'Arial', sans-serif;
+  color: #aaa;
+  max-width: 777px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+
+.more {
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: #999;
+  font: 600 0.95rem/1.4 'Arial', sans-serif;
+  color: #fff;
+  border-radius: 7px;
+  transition: all 0.5s ease 0s;
+}
+
+.more:hover {
+  background-color: #aaa;
+  color: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+.copyright {
+  padding: 35px 0;
+  text-align: center;
+  font: 400 1rem/1.8 'Arial', sans-serif;
+  color: #999;
+}
